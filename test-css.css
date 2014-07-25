@@ -1,0 +1,100 @@
+body{
+	font-family: "Open Sans", sans-serif;
+	color: #686868;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.7;
+	background-color: #e6e6e6;
+}
+
+p{
+	margin-bottom: 30px;
+	color: #00ff8a;
+}
+
+a{
+	text-decoration: none;
+	color: #79accd;
+}
+
+h1{
+	font-size: 28px;
+	color: #008FFF;
+}
+
+h2{
+	font-size: 26px;
+}
+
+h2 img{
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+
+h3{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+h4{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+h5{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+h6{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+ul{
+	font-size: 15px;
+	font-family: helvetica, sans-serif;
+}
+
+ul li{
+	line-height: 24px;
+}
+
+blockquote{
+	font-size: 16px;
+	line-height: 22px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: transparent url(style/images/quote.png) no-repeat top left;
+}
+
+header{
+	background-color: #768CA2;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	margin-top: -30px;
+	text-align: center;
+	width: 100%;
+}
+
+nav{ 
+	text-align: right;
+	padding:1em;
+}
+
+article{
+	width: 600px;
+	margin: 40px auto;
+}
+
+footer{
+	bottom:0;
+	width:100%;
+	height:60px;
+	color: #fff;
+	background-color: #334D5C;
+	text-align: center;
+}
