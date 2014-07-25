@@ -1,0 +1,403 @@
+
+/***************
+
+1.1 General page styles
+1.2 Typset
+1.4 Images
+1.5 Buttons
+1.6 Forms
+
+2.1 Header
+2.2 Navigation
+2.3 Page Seperators
+
+3.1 Report
+3.2 Content
+
+4.1 Footer
+
+***********/
+
+/* Section 1.1 */
+body, html
+{
+	width: 100%;
+	background-color: #e6e6e6;  
+}
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: #686868;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.7;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.clear{
+	clear: both;
+}
+
+.articleRow{
+	width: 100%;
+	clear: both;
+}
+
+/* Section 1.2 */
+
+p {
+	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #79accd;
+}
+
+a:hover {
+	color: #79accd;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 17px;
+	font-weight: 300;
+	color: #ff5400;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h2 img {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+h6 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+abbr {
+	border-bottom: 1px dotted #7b7b7b;
+}
+
+ul{
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+}
+
+ul li{
+
+	line-height: 24px;
+}
+
+blockquote {
+	font-size: 16px;
+	line-height: 22px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: transparent url(style/images/quote.png) no-repeat top left;
+}
+
+.highlight {
+	color: #79accd;
+	border-bottom: 1px dotted #79accd;
+}
+
+.highlight2 {
+	background-color: #d7d7d7;
+	padding: 0px 5px;
+}
+
+pre {
+	margin: 10px 0px 40px 0px;
+	padding: 0 10px 0px 10px;
+	display: block;
+	clear: both;
+	background: url(style/images/codebg.jpg) repeat;
+	line-height: 20px;
+	font-size: 11px;
+	border: 1px solid #cfcfcf;
+}
+
+button.large{
+	border: 1px solid black;
+	text-align; center;
+}
+
+/* Section 1.4 */
+
+img.left {
+	float: left;
+	margin: 5px 10px 5px 0;
+}
+
+img.right {
+	float: right;
+	margin: 5px 0 5px 10px;
+}
+
+/* Section 1.5 - buttons */
+
+.readMoreButton {
+	background: #ff5400;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	height:37px;
+	line-height:37px;
+	width:132px;
+	text-align:center;
+}
+
+.readMoreButton:hover {
+	background: #ffae00;
+}
+
+.readMoreButton a{
+	text-decoration:none;
+	color: #fff;
+}
+
+/* Section 1.6 Forms */
+
+#upload_form{
+	text-align: center;
+}
+
+/* Section 2.1 */
+
+header{
+	background-color: #768CA2;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	margin-top: -30px;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+header h1{
+	margin-top: 40px;
+	font-size: 55px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header h1 span{
+	font: 400 60px/60px "gentium book basic";
+    font-style: italic;
+    text-transform: none;
+}
+
+header h2{
+	border-top: 1px solid #fff;
+    color: #fff;
+    font: 200 20px/20px "open sans";
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: none; 
+	margin-bottom: 40px;
+}
+
+header h2 span{
+	background-color: #768CA2;
+    padding: 0 20px;
+    position: relative;
+    top: -10px; 
+		
+}
+
+/* Section 2.2 */
+
+nav{ 
+	text-align: right;
+	padding:1em;
+}
+
+nav a{
+	color: #fff;
+	font-size: 1em;
+	padding-right: 1em;
+}
+
+nav a:hover{
+	color: #E27A3F;
+	text-decoration: none;
+}
+
+/* Section 2.3 Page Seperators */
+
+.pageSeperator{
+	text-align: center;
+	width: 100%;
+	font-size: 30px;
+	color: #fff;
+}
+
+.pageSeperator.darkBlue{
+	background-color: #2A2C39;
+}
+
+.pageSeperator.orange{
+	background-color: #ff5400;
+}
+
+.pageSeperator.grey{
+	background-color: #3b4249;
+}
+
+/* Section 3.1 */
+
+.report{
+	border: 1px solid #b5b5b5;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.report span {
+	color: #666;
+}
+
+.report img{
+	border: 1px solid #b5b5b5;
+	clear: both;
+	float: left;
+	margin-right: 40px;
+}
+
+#reportHeadline{
+	text-align: center;
+}
+
+/* Section 3.2 */
+
+article{
+	width: 600px;
+	margin: 40px auto;
+}
+
+article.main, article.story{
+	width: 85%;
+}
+
+article.main img{
+	float: left;
+	opacity: .3;
+	margin: 10px 40px 0px 20px;
+}
+
+article.story img{
+	float: left;
+	width: 300px;
+	margin: 10px 40px 0px 20px;
+}
+
+.divider, .divider2, .divider3 {
+	background: transparent url(style/images/line.png) repeat-x;
+	height: 2px;
+	margin: 0 0 30px 0;
+}
+
+.divider2 {
+	margin: 30px 0;
+}
+
+.divider3 {
+	margin: 20px 0 0 0;
+}
+
+.homeFeature{
+	width: 438px;
+	margin: 10px 20px 30px 20px;
+	border: 1px solid #686868;
+	float: left;
+}
+
+.homeFeature img{
+	width: 438px;
+	border-bottom: 2px solid #686868;
+}
+
+.homeFeature p{
+	padding: 20px;
+}
+
+.logoScreen{
+	position: absolute;
+	opacity: .2;
+	clear: both;
+}
+
+.articleIntro{
+	width: 450px;
+	float: left;
+	padding: 15px 15px 30px 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #ff5400;
+}
+
+.articleIntro img{
+	float: left;
+	width: 250px;
+	border: 10px solid white;
+	margin: 5px;
+}
+
+.articleIntro h6{
+	min-height: 60px;
+}
+
+
+/* Section 4.1 */
+footer{
+	bottom:0;
+	width:100%;
+	height:60px;
+	color: #fff;
+	background-color: #334D5C;
+	text-align: center;
+}
+
+
+
